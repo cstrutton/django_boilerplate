@@ -10,7 +10,7 @@ To add an app:
  - run ```sudo chown -R $user:$user in the project directory to fix permision issues```
 
 To run manage.py:
-  - run ```docker-compose run --rm app sh -c "python manage.py \<command>```
+  - run ```docker-compose run --rm app sh -c "python manage.py \<command>"```
 
 To run the app:
   - run ```docker-compose -d up```
